@@ -123,21 +123,21 @@ export const myProjects = [
     id: 4,
     title: "AI-Powered Resume Analyzer",
     description:
-      "An AI-powered Resume Analyzer with React, React Router, and Puter.js!.",
+      "An AI-powered Resume Analyzer that provides ATS score and tips to improve resume.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Built using React router, TypeScript, Puter.js and TailwindCSS.",
+      "AI Agent to perform contextual analysis of PDFs against job details, generating specific content recommendations.",
+      "Implemented core logic to calculate and output quantitative metrics (Overall Score & ATS Score), translating complex analysis into actionable user data.",
+      "Utilized PuterJS for decentralized data persistence and efficient serverless processing/storage, optimizing the high-volume data pipeline.",
     ],
-    href: "",
+    href: "https://ai-resume-analyzer-fawn-xi.vercel.app/",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/resumind.png",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "React Router",
+        path: "/assets/logos/react-router.svg",
       },
       {
         id: 2,
@@ -234,19 +234,14 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/chirag-singh-b9b452300/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "GitHub",
+    href: "https://github.com/Chirag2730/",
+    icon: "/assets/socials/github.svg",
   },
 ];
 

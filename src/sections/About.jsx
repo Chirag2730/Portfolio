@@ -19,8 +19,8 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Chirag Singh</p>
              <p className="subtext"> {/*chnage this (comment) */}
-              I am a MERN stack developer who has honed his frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              An enthusiastic MERN stack developer who has honed his frontend and backend dev
+              skills to deliver dynamic web applications.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -61,17 +61,17 @@ const About = () => {
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"  // Change this (comment)
+              image="assets/logos/tailwind-pink.png"  // Change this (comment)
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
+              image="assets/logos/react-pink.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
+              image="assets/logos/mongodb-pink.png"
               containerRef={grid2Container}
             />
           </div>
@@ -102,9 +102,15 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
+              I specialize in a variety of languages, frameworks, and tools that
               allow me to build robust and scalable applications
             </p>
+            <ul className="subtext mt-4">
+              <li>‣ MongoDB, Express, React, Node.js</li>
+              <li>‣ HTML, CSS, JavaScript, Tailwind CSS</li>
+              <li>‣ Git, Github, VS Code</li>
+              <li>‣ C++, Python</li>
+            </ul>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />
